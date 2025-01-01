@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b2aea1-dd2a-4bd1-bb02-c1edfa866682" name="Changes" comment="logic le vrai" />
+    <list default="true" id="53b2aea1-dd2a-4bd1-bb02-c1edfa866682" name="Changes" comment="logic le vrai">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,18 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Aphanaci"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aphanaci&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aphanaci/pyfort-Antao-D_Argent-Sidorok-INT2.git",
-    "accountId": "7241ef1e-239f-4f55-9dc0-2ff64cf6db91"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aphanaci/pyfort-Antao-D_Argent-Sidorok-INT2.git&quot;,
+    &quot;accountId&quot;: &quot;7241ef1e-239f-4f55-9dc0-2ff64cf6db91&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -83,6 +85,7 @@
       <workItem from="1734332911573" duration="241000" />
       <workItem from="1734612255826" duration="2285000" />
       <workItem from="1734619051199" duration="92000" />
+      <workItem from="1735767244146" duration="491000" />
     </task>
     <task id="LOCAL-00001" summary="logic le vrai">
       <option name="closed" value="true" />
@@ -97,6 +100,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="logic le vrai" />
