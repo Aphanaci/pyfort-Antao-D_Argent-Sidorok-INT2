@@ -27,5 +27,3 @@ def pere_fouras_riddles():
             else :
                 print("You don't have attempts left. The correct answer was: " + answer)
                 return False
-
-pere_fouras_riddles()

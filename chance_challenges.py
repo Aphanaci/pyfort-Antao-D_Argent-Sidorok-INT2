@@ -1,6 +1,5 @@
 import random
 
-
 ##shell game
 def shell_game():
 
@@ -63,4 +62,4 @@ def roll_dice_game():
 def chance_challenge():
     challenges = [shell_game, roll_dice_game]
     challenge = random.choice(challenges)
-    challenge()
+    return challenge()

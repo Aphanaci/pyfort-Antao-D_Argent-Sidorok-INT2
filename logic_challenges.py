@@ -1,40 +1,5 @@
 import random
 
-##Game of NIM
-def display_sticks(n):
-    print("Remaining sticks:", n* "|")
-
-def player_removal(n):
-    a = int(input("How many sticks do you want to remove (1, 2, or 3)?"))
-    while a not in [1,2,3] and a<n:
-        a = int(input("You can't remove this amount of sticks. How many sticks do you want to remove (1, 2, or 3)?"))
-    return a
-
-def master_removal(n):
-    a = n%4
-    return a
-
-def nim_game():
-    n = 20
-    players_turn = True
-    while n > 0:
-        display_sticks(n)
-        for _ in range(2):
-            if players_turn:
-                n = n - player_removal(n)
-                players_turn = False
-            else:
-                n = n - master_removal(n)
-                players_turn = True
-    if players_turn:
-        print("The game master removed the last stick. The player wins!")
-        return True
-    else:
-        print("The player removed the last stick. The game master wins...")
-        return False
-
-
-##Battleship game
 def next_player(player):
     return 1 - player
 

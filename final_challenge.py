@@ -39,6 +39,6 @@ def treasure_room():
                 print("Incorrect. The code word was:", code_word)
 
     if answer_correct:
-        print("Congratulations! You have opened the treasure room!")
+        print("Congratulations! You have opened the treasure room and your team wins the game !")
     else:
-        print("You failed to open the treasure room.")
+        print("You failed to open the treasure room... Your team loses...")

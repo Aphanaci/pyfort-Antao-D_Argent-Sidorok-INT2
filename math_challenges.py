@@ -118,4 +118,4 @@ def math_roulette_challenge():
 def math_challenge():
     challenges = [math_challenge_factorial, math_challenge_equation, math_challenge_prime]
     challenge = random.choice(challenges)
-    challenge()
+    return challenge()
