@@ -33,6 +33,10 @@ def game():
             if win:
                 keys += 1
                 player['keys_wons'] += 1
+    print("You have now access to the last challenge: the treasure room !\n")
+    print("The rules are simple, you're gonna have 3 clues at the start, corresponding to a word.\n")
+    print("For each failed attempt, you will have one more clue up until 6 clues.\n")
+    print("Be careful, if you fail after three attempts, you lose...\n")
     treasure_room()
     print(team)
 
