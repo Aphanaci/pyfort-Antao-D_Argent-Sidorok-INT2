@@ -8,13 +8,13 @@ You can just dowload the zip of this repository and open it with any editor supp
 After this, just run the program normally without doing anything more, then write in the console to keep going.
 
 These repository contains the following algorithms :
-    - main.py
-    - utility_function.py
-    - chance_challenges.py
-    - final_challenge.py
-    - logic_challenges.py
-    - math_challenges.py
-    - pere_fouras_challenge.py
+    - main.py (Theo S.)
+    - utility_function.py (Theo S.)
+    - chance_challenges.py (Florian A. and Theo S.)
+    - final_challenge.py (Theo S.)
+    - logic_challenges.py (Gregoire D. and Theo S.)
+    - math_challenges.py (Theo S.)
+    - pere_fouras_challenge.py (Theo S.)
 
 Every algorithms containing the "challenge" mention in its name is a part of the game, the utility_function.py is here to make the game cohesive and bring functionalities such as the creation of a team, the choices of players etc...
 Most of the input and error management is made out of some try/except loops, the presence of errors in this project is not completely excluded.
