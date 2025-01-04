@@ -1,6 +1,7 @@
 import random
 
 ##Factorial Challenge
+## Computes a factorial n
 def factorial(n):
     if n == 0:
         return 1
@@ -10,6 +11,7 @@ def factorial(n):
             r = r * i
         return r
 
+## Ask the user to guess a factorial n and verify if the answer is correct
 def math_challenge_factorial():
 
     n = random.randint(1,10)
@@ -46,8 +48,8 @@ def math_challenge_equation():
         print("This answer isn't correct.")
         return False
 
-
-##Prime numbers challenge
+## Prime number challenge
+## Verify if a number is prime
 def is_prime(n):
     if n < 2:
         return False
@@ -65,11 +67,13 @@ def is_prime(n):
         i += 6
     return True
 
+## Verify which is the nearest prime number to a number n
 def nearest_prime(n):
     while not is_prime(n):
         n += 1
     return n
 
+## Ask the user to guess the nearest prime number above a random number selected by using the previous functions
 def math_challenge_prime():
     n = random.randint(10,20)
     res = nearest_prime(n)
@@ -83,7 +87,7 @@ def math_challenge_prime():
         return False
 
 
-##Math roulette challenge
+## Ask the user to calculate an operation with random numbers and operators
 def math_roulette_challenge():
 
     random_numbers = [random.randint(1,20) for _ in range(5)]
@@ -114,7 +118,7 @@ def math_roulette_challenge():
         print("This answer isn't correct.")
         return False
 
-
+## Select randomly a math challenge
 def math_challenge():
     challenges = [math_challenge_factorial, math_challenge_equation, math_challenge_prime]
     challenge = random.choice(challenges)

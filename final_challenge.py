@@ -1,6 +1,7 @@
 import json
 import random
 
+## Display clues to find a word related to it and adding a certain amount until the player loses
 def treasure_room():
 
     with open('TRClues.json', 'r') as f:

@@ -1,13 +1,14 @@
 import json
 import random
 
+## Put the content of a json in a dictionary
 def load_riddles(file):
     f = open(file, 'r')
     data = json.load(f)
     f.close()
     return data
 
-
+## Use the previous function to read a json containing riddles that the player has to solve
 def pere_fouras_riddles():
     attempts = 3
     l = load_riddles('PFRiddles.json')

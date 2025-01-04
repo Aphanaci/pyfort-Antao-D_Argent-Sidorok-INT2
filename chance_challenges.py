@@ -1,6 +1,6 @@
 import random
 
-##shell game
+## Shell game where you have to find a key randomly placed under one of the three shells proposed
 def shell_game():
 
     l = ['A', 'B', 'C']
@@ -31,7 +31,7 @@ def shell_game():
     return False
 
 
-##rolling dice game
+## Game of rolling dice where the goal is to get a six, if no one gets it, it's a draw
 def roll_dice_game():
 
   max_attempts = 3
@@ -59,6 +59,7 @@ def roll_dice_game():
   print("No player scored a 6 after three tries. It's a draw.")
   return False
 
+## Select a random chance challenge
 def chance_challenge():
     challenges = [shell_game, roll_dice_game]
     challenge = random.choice(challenges)

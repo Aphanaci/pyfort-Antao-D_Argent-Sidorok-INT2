@@ -1,11 +1,14 @@
 import random
 
+## Go to the next player
 def next_player(player):
     return 1 - player
 
+## Create a grid to play
 def empty_grid():
     return [[" " for _ in range(3)] for _ in range(3)]
 
+## Display the grid created
 def display_grid(grid, message):
     print(message)
     print("  +---+---+---+")
@@ -14,6 +17,7 @@ def display_grid(grid, message):
         print("  +---+---+---+")
     print("    0   1   2  ")
 
+## Register the position of the boats wanted by the user
 def ask_position():
     while True:
         try:
@@ -26,6 +30,7 @@ def ask_position():
         except ValueError:
             print("Invalid input format. Please enter as 'row,col'.")
 
+## Put the boats where the user wants
 def initialize():
     grid = empty_grid()
     for _ in range(2):
@@ -39,6 +44,7 @@ def initialize():
                 print("Position already occupied.")
     return grid
 
+## Decide the turn of the player
 def turn(player, player_shots_grid, opponent_grid):
     print(f"\nPlayer {player}'s turn:")
     display_grid(player_shots_grid, "Your shots:")
@@ -64,11 +70,12 @@ def turn(player, player_shots_grid, opponent_grid):
         player_shots_grid[row][col] = "."
         opponent_grid[row][col] = "."
 
-
+## Verify if there is a winner
 def has_won(player_shots_grid):
     hit_count = sum(row.count("X") for row in player_shots_grid)
     return hit_count == 4
 
+## Launching and playing the battleship game
 def battleship_game():
     print("Welcome to Battleship!")
     print("Each player must place 2 boats on a 3x3 grid.")

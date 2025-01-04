@@ -5,6 +5,7 @@ from pere_fouras_challenge import *
 from final_challenge import *
 from utility_functions import *
 
+## Making the structure of the game
 def game():
     introduction()
     print("Now let's make your team!")

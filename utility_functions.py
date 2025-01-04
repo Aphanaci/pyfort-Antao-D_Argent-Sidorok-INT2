@@ -10,7 +10,7 @@ def introduction():
     print("Good luck!\n")
 
 
-
+## Allow the player to create a team of 3 characters maximum
 def compose_team():
 
     while True:
@@ -55,7 +55,7 @@ def compose_team():
     return team
 
 
-
+## Menu to choose the type of challenge the user want to do
 def challenges_menu():
 
     while True:
@@ -75,7 +75,7 @@ def challenges_menu():
             print("Invalid input. Please enter a number.")
 
 
-
+## Allow you to choose which player to use in a challenge
 def choose_player(team):
 
     print("\nTeam Roster:")
