@@ -31,7 +31,7 @@ def shell_game():
     return False
 
 
-## Game of rolling dice where the goal is to get a six, if no one gets it, it's a draw
+## Game of rolling dices where the goal is to get a six, if no one gets it, it's a draw
 def roll_dice_game():
 
   max_attempts = 3

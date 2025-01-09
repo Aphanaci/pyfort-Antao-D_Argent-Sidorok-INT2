@@ -73,7 +73,7 @@ def turn(player, player_shots_grid, opponent_grid):
 ## Verify if there is a winner
 def has_won(player_shots_grid):
     hit_count = sum(row.count("X") for row in player_shots_grid)
-    return hit_count == 4
+    return hit_count == 2
 
 ## Launching and playing the battleship game
 def battleship_game():
